@@ -1,0 +1,30 @@
+body {
+    font-family: $ff-main;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clearfix {
+
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
