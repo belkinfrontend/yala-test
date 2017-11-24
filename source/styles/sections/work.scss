@@ -1,12 +1,10 @@
 .work {
     text-align: center;
-    //padding: 10%;
     background: #fff;
     position: relative;
     
-    @media (max-width: 900px) {
-        //        padding-top: 40px;
-        //        padding-bottom: 40px;
+    @media (max-width: 750px) {
+        padding: 30px;
     }
     
     .fp-tableCell {
@@ -25,29 +23,41 @@
         letter-spacing: 0.4px;
         text-align: left;
         color: #000;
-//        position: absolute;
-//        top: 10%;
-//        left: 10%;
+        
+        @media (max-width: 750px) {
+            padding-left: 0;
+            padding-top: 0;
+        }
     }
 
     .big-bikes-are-cool {
         max-width: 100%;
         width: 540px;
         margin: 0 auto;
-        //height: 176px;
         font-family: HelveticaNeue;
         font-size: 14px;
         line-height: 1.57;
         letter-spacing: 0.2px;
         text-align: left;
-        color: #000000;
+        color: #000;
         position: relative;
-//        top: 30%;
-//        left: 30%;
-    
         
+            @media (min-width: 1550px) {
+                font-size: 24px;
+                width: 740px;
+            }
+        
+       
         .rectangle-work {
             padding-top: 40px;
+            font-weight: bold;
+            position: relative;
+            
+            
+            @media (max-width: 750px) {
+                text-align: center;
+            }
+            
         }
 
         .rectangle-work button {
@@ -55,10 +65,8 @@
             height: 50px;
             background-color: #ffce0d;
             border: none;
-    //        position: absolute;
-    //        bottom: 25%;
-    //        left: 30%;
-
+            
+            
             &:hover {
                  background-color: #ffda45;
             }
@@ -66,6 +74,7 @@
                 background-color: #ffbc0e;
                 outline: 0 !important;
             }
+            
         }
     }
     
@@ -81,5 +90,10 @@
         word-spacing: 16px;
         right: 0%;
         top: 20%;
+        
+        @media (max-width: 750px) {
+            display: none;
+
+        }
     }
 }
