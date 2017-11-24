@@ -6,8 +6,8 @@ function showtext_slide() {
     }).animate({
         opacity: 1.0,
         left: "0px"
-    }, 2000);
-    setTimeout(hidetext_slide, 4000);
+    }, 1000);
+    setTimeout(hidetext_slide, 3000);
 }
 
 function hidetext_slide() {
@@ -16,7 +16,7 @@ function hidetext_slide() {
     }).animate({
         opacity: 0
         //left: "50px"
-    }, 2000, function () {
+    }, 1000, function () {
         showtext_slide();
     });
     text_slide_cur = (text_slide_cur + 1) % 3;

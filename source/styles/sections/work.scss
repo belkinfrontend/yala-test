@@ -2,20 +2,19 @@
     text-align: center;
     background: #fff;
     position: relative;
-    
+
     @media (max-width: 750px) {
         padding: 30px;
     }
-    
+
     .fp-tableCell {
         vertical-align: top;
     }
 
-    .WHY-BUILDING-CUSTOM {
-        //width: 385px;
+    .privilege {
         padding-top: 60px;
         padding-left: 122px;
-        
+
         font-family: HelveticaNeue;
         font-size: 24px;
         font-weight: bold;
@@ -23,14 +22,14 @@
         letter-spacing: 0.4px;
         text-align: left;
         color: #000;
-        
+
         @media (max-width: 750px) {
             padding-left: 0;
             padding-top: 0;
         }
     }
 
-    .big-bikes-are-cool {
+    .privilege_description {
         max-width: 100%;
         width: 540px;
         margin: 0 auto;
@@ -41,44 +40,44 @@
         text-align: left;
         color: #000;
         position: relative;
-        
-            @media (min-width: 1550px) {
-                font-size: 24px;
-                width: 740px;
-            }
-        
-       
-        .rectangle-work {
+
+        @media (min-width: 1550px) {
+            font-size: 24px;
+            width: 740px;
+        }
+
+
+        .rectangle_work {
             padding-top: 40px;
             font-weight: bold;
             position: relative;
-            
-            
+
+
             @media (max-width: 750px) {
                 text-align: center;
             }
-            
+
         }
 
-        .rectangle-work button {
+        .rectangle_work button {
             width: 160px;
             height: 50px;
             background-color: #ffce0d;
             border: none;
-            
-            
+
+
             &:hover {
-                 background-color: #ffda45;
+                background-color: #ffda45;
             }
             &:active {
                 background-color: #ffbc0e;
                 outline: 0 !important;
             }
-            
+
         }
     }
-    
-    .WHAT-WHERE-WHY {
+
+    .questions {
         position: absolute;
         transform: rotate(-90deg);
         font-size: 10px;
@@ -86,14 +85,14 @@
         line-height: 1.2;
         letter-spacing: 2px;
         text-align: left;
+        cursor: pointer;
         color: #000;
         word-spacing: 16px;
         right: 0%;
         top: 20%;
-        
+
         @media (max-width: 750px) {
             display: none;
-
         }
     }
 }
